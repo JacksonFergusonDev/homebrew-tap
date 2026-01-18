@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🐛 Runtime / Logic Bugs
+    url: https://github.com/jacksonfergusondev/git-pulsar/issues/new
+    about: Please report crashes, Python exceptions, or daemon failures on the main repository.
