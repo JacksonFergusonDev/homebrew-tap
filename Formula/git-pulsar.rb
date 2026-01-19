@@ -3,8 +3,8 @@ class GitPulsar < Formula
 
   desc "Automated paranoid git backup for students"
   homepage "https://github.com/JacksonFergusonDev/git-pulsar"
-  url "https://github.com/JacksonFergusonDev/git-pulsar/archive/refs/tags/v0.9.1.tar.gz"
-  sha256 "170e7ca2abccbc26eb807632278516cdd7bfc44151c623e2c52efecdf58f6498"
+  url "https://github.com/JacksonFergusonDev/git-pulsar/archive/refs/tags/v0.10.0.tar.gz"
+  sha256 "55fe7cee279c582f8b0df2353aeafb6cc082a7e9c02cde26ee9c55a437116c88"
   license "MIT"
 
   depends_on "python"
