@@ -7,7 +7,7 @@ class GitPulsar < Formula
   sha256 "f5615cd6d0ff7cc6c61e1ba78bd4c78a500b3e198c0d59b683d0bedd3b9fde3c"
   license "MIT"
 
-  depends_on "python"
+  depends_on "python@3.14"
 
   # Resource: mdurl 0.1.2 (Dependency of markdown-it-py)
   resource "mdurl" do
@@ -39,7 +39,7 @@ class GitPulsar < Formula
     # 2. Installs all defined 'resource' blocks
     # 3. Installs the main package
     # 4. Links binaries
-    virtualenv_install_with_resources
+    virtualenv_install_with_resources using: "python@3.14"
   end
 
   service do
