@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 🐛 Runtime / Logic Bugs
+  - name: 🔭 Git Pulsar: Logic Bugs
     url: https://github.com/jacksonfergusondev/git-pulsar/issues/new
-    about: Please report crashes, Python exceptions, or daemon failures on the main repository.
+    about: Report crashes, state-drift errors, or daemon failures for Git Pulsar.
+  - name: 🌟 Protostar: Logic Bugs
+    url: https://github.com/jacksonfergusondev/protostar/issues/new
+    about: Report module failures, configuration errors, or scaffolding bugs for Protostar.

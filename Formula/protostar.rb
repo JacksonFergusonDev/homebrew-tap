@@ -1,10 +1,10 @@
-class GitPulsar < Formula
+class Protostar < Formula
   include Language::Python::Virtualenv
 
-  desc "Out-of-band, fault-tolerant Git state capture for distributed development."
-  homepage "https://github.com/JacksonFergusonDev/git-pulsar"
-  url "https://github.com/JacksonFergusonDev/git-pulsar/archive/refs/tags/v0.15.0.tar.gz"
-  sha256 "85a22b043e5c833cda2fbb72e77dce1066e4d4996691794ab3b3b78434d2e500"
+  desc "High-velocity, deterministic environment scaffolding"
+  homepage "https://github.com/jacksonfergusondev/protostar"
+  url "https://github.com/jacksonfergusondev/protostar/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "ed1a6a9e5dfe5c2737436539b4d4ff9eafd47db4e18c2a5955b5d19d925f6711"
   license "MIT"
 
   depends_on "python@3.14"
@@ -42,16 +42,10 @@ class GitPulsar < Formula
     virtualenv_install_with_resources using: "python@3.14"
   end
 
-  service do
-    run [opt_bin/"git-pulsar-daemon"]
-    run_type :interval
-    interval 900
-    log_path var/"log/git-pulsar.log"
-    error_log_path var/"log/git-pulsar.err"
-    environment_variables PATH: std_service_path_env
-  end
-
   test do
-    system bin/"git-pulsar", "--help"
+    # Verify the primary executable
+    system bin/"protostar", "--help"
+    # Verify the shorthand alias defined in pyproject.toml
+    system bin/"proto", "--help"
   end
 end

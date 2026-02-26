@@ -1,14 +1,25 @@
 name: Installation / Brew Issue
-description: Report a failure to install git-pulsar via Homebrew
+description: Report a failure to install a formula via Homebrew
 title: "[Install]: "
 labels: ["installation"]
-assignees: ["jacksonferguson"]
+assignees: ["jacksonfergusondev"]
 body:
   - type: markdown
     attributes:
       value: |
-        **Use this specifically for `brew install` failures.**
-        If the application is installed but crashing or behaving weirdly, please file an issue on the main repository: https://github.com/jacksonferguson/git-pulsar/issues
+        **Use this specifically for `brew install` failures.** If the tool is already installed but is behaving incorrectly, please file the issue on the specific tool's repository:
+        - [Git Pulsar Issues](https://github.com/jacksonfergusondev/git-pulsar/issues)
+        - [Protostar Issues](https://github.com/jacksonfergusondev/protostar/issues)
+  - type: dropdown
+    id: formula
+    attributes:
+      label: Affected Formula
+      description: Which tool failed to install?
+      options:
+        - git-pulsar
+        - protostar
+    validations:
+      required: true
   - type: textarea
     id: brew-config
     attributes:
@@ -21,7 +32,9 @@ body:
     id: failure-log
     attributes:
       label: Failure Output
-      description: Please run `brew install git-pulsar --verbose` and paste the failure log below.
+      description: |
+        Please run the installation with the verbose flag and paste the failure log.
+        Example: `brew install <formula> --verbose`
       render: bash
     validations:
       required: true
