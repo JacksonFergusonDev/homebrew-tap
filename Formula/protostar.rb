@@ -3,8 +3,8 @@ class Protostar < Formula
 
   desc "High-velocity, deterministic environment scaffolding"
   homepage "https://github.com/jacksonfergusondev/protostar"
-  url "https://files.pythonhosted.org/packages/46/d8/643ca1d04543b95ec20b6e703402672526b8eb9f7f1f4dfcac2e37571950/protostar-0.4.4.tar.gz"
-  sha256 "2418b7c412e197d4ce551310e78a72bd5562cb7d85a3cdcef2584974d6f46d3d"
+  url "https://files.pythonhosted.org/packages/65/8d/20524a96725899435f495c82c2948bc8eb51186b6359a264ad460fa83226/protostar-0.5.0.tar.gz"
+  sha256 "03aba8276f659a87609e5cec199d988b3882eb04843281a52fe460dc6557d1fd"
   license "MIT"
 
   depends_on "python@3.14"
@@ -42,6 +42,16 @@ class Protostar < Formula
   resource "rich" do
     url "https://files.pythonhosted.org/packages/b3/c6/f3b320c27991c46f43ee9d856302c70dc2d0fb2dba4842ff739d5f46b393/rich-14.3.3.tar.gz"
     sha256 "b8daa0b9e4eef54dd8cf7c86c03713f53241884e814f4e2f5fb342fe520f639b"
+  end
+
+  resource "rich-argparse" do
+    url "https://files.pythonhosted.org/packages/4c/f7/1c65e0245d4c7009a87ac92908294a66e7e7635eccf76a68550f40c6df80/rich_argparse-1.7.2.tar.gz"
+    sha256 "64fd2e948fc96e8a1a06e0e72c111c2ce7f3af74126d75c0f5f63926e7289cd1"
+  end
+
+  resource "tomlkit" do
+    url "https://files.pythonhosted.org/packages/c3/af/14b24e41977adb296d6bd1fb59402cf7d60ce364f90c890bd2ec65c43b5a/tomlkit-0.14.0.tar.gz"
+    sha256 "cf00efca415dbd57575befb1f6634c4f42d2d87dbba376128adb42c121b87064"
   end
 
   resource "wcwidth" do
