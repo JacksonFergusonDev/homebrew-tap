@@ -3,8 +3,8 @@ class Protostar < Formula
 
   desc "High-velocity, deterministic environment scaffolding"
   homepage "https://github.com/jacksonfergusondev/protostar"
-  url "https://files.pythonhosted.org/packages/65/8d/20524a96725899435f495c82c2948bc8eb51186b6359a264ad460fa83226/protostar-0.5.0.tar.gz"
-  sha256 "03aba8276f659a87609e5cec199d988b3882eb04843281a52fe460dc6557d1fd"
+  url "https://files.pythonhosted.org/packages/92/b6/3e962835c50d266ce6089fae33508d2fd4130dba481e9f404241ce816e09/protostar-0.6.0.tar.gz"
+  sha256 "e1fd88aab5495dce0ce461140f0d6ba41522a947a710bce6fc310b86dda33c50"
   license "MIT"
 
   depends_on "python@3.14"
