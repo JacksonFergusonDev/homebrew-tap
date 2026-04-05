@@ -1,13 +1,14 @@
 # Jackson Ferguson's Homebrew Tap
 
-This repository contains custom Homebrew formulae for my engineering and astrophysics toolsets. These tools are built with a focus on **Deterministic Scaffolding** and **Entropy Reduction** in software development workflows.
+This repository serves as the Homebrew distribution channel for my custom command-line developer utilities. Across environment scaffolding (`protostar`), fault-tolerant state capture (`git-pulsar`), and AI context extraction (`focal`), these tools share a core engineering philosophy: maximizing developer velocity, enforcing deterministic architectures, and ruthlessly eliminating workflow noise.
 
 ## Available Formulae
 
 | Formula | Description |
 | :--- | :--- |
 | **[git-pulsar](https://github.com/jacksonfergusondev/git-pulsar)** | Out-of-band, fault-tolerant Git state capture for distributed development. |
-| **[protostar](https://github.com/jacksonfergusondev/protostar)** | High-velocity, deterministic environment scaffolding and accretion engine. |
+| **[protostar](https://github.com/jacksonfergusondev/protostar)** | A modular CLI tool for high-velocity environment scaffolding. |
+| **[focal](https://github.com/jacksonfergusondev/focal)** | CLI utilities for AI-assisted development context and workflow automation. |
 
 ## Installation
 
@@ -25,6 +26,9 @@ brew install git-pulsar
 
 # For rapid environment initialization
 brew install protostar
+
+# For AI context extraction
+brew install focal
 ```
 
 ## Maintenance
