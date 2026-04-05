@@ -21,6 +21,10 @@ class Focal < Formula
 
     # 2. Create the virtual environment natively in libexec
     virtualenv_create(prefix/"libexec", "python3.13")
+
+    # 3. Install shell completions
+    bash_completion.install "completions/focal.bash" => "focal"
+    zsh_completion.install "completions/_focal"
   end
 
   test do
