@@ -7,7 +7,6 @@ class Focal < Formula
   sha256 "381fae73942ed16f247ff06756b3ac5897499f6b43cbce5d5f6d88fa02e79401"
   license "MIT"
 
-  depends_on "ast-grep"
   depends_on "bat"
   depends_on "fd"
   depends_on "fzf"
