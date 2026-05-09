@@ -9,6 +9,7 @@ class GitPulsar < Formula
 
   depends_on "python@3.14"
 
+  # RESOURCE_BLOCK_START
   resource "markdown-it-py" do
     url "https://files.pythonhosted.org/packages/5b/f5/4ec618ed16cc4f8fb3b701563655a69816155e79e24a17b651541804721d/markdown_it_py-4.0.0.tar.gz"
     sha256 "cb0a2b4aa34f932c007117b194e945bd74e0ec24133ceb5bac59009cda1cb9f3"
@@ -28,6 +29,7 @@ class GitPulsar < Formula
     url "https://files.pythonhosted.org/packages/b3/c6/f3b320c27991c46f43ee9d856302c70dc2d0fb2dba4842ff739d5f46b393/rich-14.3.3.tar.gz"
     sha256 "b8daa0b9e4eef54dd8cf7c86c03713f53241884e814f4e2f5fb342fe520f639b"
   end
+  # RESOURCE_BLOCK_END
 
   def install
     # virtualenv_install_with_resources automatically:

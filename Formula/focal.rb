@@ -14,6 +14,10 @@ class Focal < Formula
   depends_on "python@3.13"
   depends_on "ripgrep"
 
+  # RESOURCE_BLOCK_START
+
+  # RESOURCE_BLOCK_END
+
   def install
     # 1. Install bash architecture
     prefix.install "bin", "lib", "libexec", "focal"
