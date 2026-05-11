@@ -6,9 +6,9 @@ This repository serves as the Homebrew distribution channel for my custom comman
 
 | Formula | Description |
 | :--- | :--- |
-| **[git-pulsar](https://github.com/jacksonfergusondev/git-pulsar)** | Out-of-band, fault-tolerant Git state capture for distributed development. |
-| **[protostar](https://github.com/jacksonfergusondev/protostar)** | A modular CLI tool for high-velocity environment scaffolding. |
-| **[focal](https://github.com/jacksonfergusondev/focal)** | CLI utilities for AI-assisted development context and workflow automation. |
+| <a href="https://github.com/JacksonFergusonDev/protostar"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JacksonFergusonDev/protostar/refs/heads/main/docs/assets/readme-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JacksonFergusonDev/protostar/refs/heads/main/docs/assets/readme-light.svg"><img alt="protostar" src="https://raw.githubusercontent.com/JacksonFergusonDev/protostar/refs/heads/main/docs/assets/readme-light.svg" width="350" style="max-width:100%; height:auto;"></picture></a> | A modular CLI tool for high-velocity python environment scaffolding. |
+| <a href="https://github.com/jacksonfergusondev/git-pulsar"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JacksonFergusonDev/git-pulsar/refs/heads/main/assets/readme-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JacksonFergusonDev/git-pulsar/refs/heads/main/assets/readme-light.svg"><img alt="git-pulsar" src="https://raw.githubusercontent.com/JacksonFergusonDev/git-pulsar/refs/heads/main/assets/readme-light.svg" width="350" style="max-width:100%; height:auto;"></picture></a> | Out-of-band, fault-tolerant Git state capture for distributed development. |
+| <a href="https://github.com/jacksonfergusondev/focal"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JacksonFergusonDev/focal/refs/heads/main/assets/readme-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JacksonFergusonDev/focal/refs/heads/main/assets/readme-light.svg"><img alt="focal" src="https://raw.githubusercontent.com/JacksonFergusonDev/focal/refs/heads/main/assets/readme-light.svg" width="220" style="max-width:100%; height:auto;"></picture></a> | CLI utilities for AI-assisted development context and workflow automation. |
 
 ## Installation
 
