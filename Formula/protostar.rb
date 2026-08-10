@@ -3,8 +3,8 @@ class Protostar < Formula
 
   desc "High-velocity, deterministic python environment scaffolding"
   homepage "https://github.com/jacksonfergusondev/protostar"
-  url "https://files.pythonhosted.org/packages/42/ee/21618e0e76d7c2c5efa1dc652a5ee73f8f07680b669434a5a31f0579fefd/protostar-0.8.2.tar.gz"
-  sha256 "76b9d9cf05e494e2400b052e950daa1c5acf7f54bdf2002d600b4961eddfce97"
+  url "https://files.pythonhosted.org/packages/c9/72/085d5d4150bd147e81bbf3badba667ea0c0a23ca4c58ca7c3fd4ee3d3a9b/protostar-0.8.3.tar.gz"
+  sha256 "06f142ba4da8bc1b0fc10360a71d130ef4e443f61a331b8ff4d06f3fe4a6fd92"
   license "MIT"
 
   depends_on "python@3.14"
@@ -12,8 +12,8 @@ class Protostar < Formula
 
   # RESOURCE_BLOCK_START
   resource "argcomplete" do
-    url "https://files.pythonhosted.org/packages/95/c0/c8e94135e66fabf89a120d9b4b123fe6993506beca6c1938a74c24cfa5fd/argcomplete-3.7.0.tar.gz"
-    sha256 "afde224f753f874807b1dc1414e883ab8fe0cda9c04807b6047dcb8e1ac23913"
+    url "https://files.pythonhosted.org/packages/87/6f/5a73f04007ca950701765949209f068da628bd11f9c2da287278ce91e0ee/argcomplete-3.7.2.tar.gz"
+    sha256 "aad8b69a0b9969edb62db0d1752354c0d50717b10e0cbb00e2a958381b9fc6b9"
   end
 
   resource "markdown-it-py" do
@@ -27,8 +27,8 @@ class Protostar < Formula
   end
 
   resource "prompt-toolkit" do
-    url "https://files.pythonhosted.org/packages/a1/96/06e01a7b38dce6fe1db213e061a4602dd6032a8a97ef6c1a862537732421/prompt_toolkit-3.0.52.tar.gz"
-    sha256 "28cde192929c8e7321de85de1ddbe736f1375148b02f2e17edd840042b1be855"
+    url "https://files.pythonhosted.org/packages/7d/ea/39b988c938f75cb75d7045b5c69f8bfed47ee2152c8837fb403de29d6fb8/prompt_toolkit-3.0.53.tar.gz"
+    sha256 "9ec8a0ad96d5c56148b3f914aa79c1564c3fde5d2e6b876e7bc327e353cf8fa6"
   end
 
   resource "pygments" do
@@ -52,8 +52,8 @@ class Protostar < Formula
   end
 
   resource "tomlkit" do
-    url "https://files.pythonhosted.org/packages/51/db/03eaf4331631ef6b27d6e3c9b68c54dc6f0d63d87201fed600cc409307fd/tomlkit-0.15.0.tar.gz"
-    sha256 "7d1a9ecba3086638211b13814ea79c90dd54dd11993564376f3aa92271f5c7a3"
+    url "https://files.pythonhosted.org/packages/94/96/e07752635b98536177fa1f37671c8f3cdde2e724c6bcf6034b2cfb571565/tomlkit-0.15.1.tar.gz"
+    sha256 "e25bbf38843005246210a12982776f27f99cb9be67160e14434d0c0d21ee1e97"
   end
 
   resource "wcwidth" do
