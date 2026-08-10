@@ -3,8 +3,8 @@ class Focal < Formula
 
   desc "CLI utilities for AI-assisted development context and workflow automation"
   homepage "https://github.com/jacksonfergusondev/focal"
-  url "https://github.com/JacksonFergusonDev/focal/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "05f91669556eb33ce157b6b843c21e1a1cb8370722ff46cfb3c712df9d07450f"
+  url "https://github.com/JacksonFergusonDev/focal/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "dd10ef5067566c348e404f10f9587a69b52b4bc46ca62dd390ecd4203f8a85d3"
   license "MIT"
 
   depends_on "bat"
