@@ -3,8 +3,8 @@ class Protostar < Formula
 
   desc "High-velocity, deterministic python environment scaffolding"
   homepage "https://github.com/jacksonfergusondev/protostar"
-  url "https://files.pythonhosted.org/packages/c9/72/085d5d4150bd147e81bbf3badba667ea0c0a23ca4c58ca7c3fd4ee3d3a9b/protostar-0.8.3.tar.gz"
-  sha256 "06f142ba4da8bc1b0fc10360a71d130ef4e443f61a331b8ff4d06f3fe4a6fd92"
+  url "https://files.pythonhosted.org/packages/cc/30/ce1bbce4f55db04e2285de81e00768a7cc8cd037da4f86320192e6ed9766/protostar-0.9.0.tar.gz"
+  sha256 "f4c5b70147dd7c0f82d486d2667ab8684157d5c0da0f988feb83085a246dbb6c"
   license "MIT"
 
   depends_on "python@3.14"
@@ -32,8 +32,8 @@ class Protostar < Formula
   end
 
   resource "pygments" do
-    url "https://files.pythonhosted.org/packages/c3/b2/bc9c9196916376152d655522fdcebac55e66de6603a76a02bca1b6414f6c/pygments-2.20.0.tar.gz"
-    sha256 "6757cd03768053ff99f3039c1a36d6c0aa0b263438fcab17520b30a303a82b5f"
+    url "https://files.pythonhosted.org/packages/49/2e/ced460408999b33da6b31b0021b0f37d329e202d4169aeb164493778f25b/pygments-2.21.0.tar.gz"
+    sha256 "610ca751c9bc2492b38eb9a38a7fbc93edbbb2d7182edaf34e66ae493dee5c8c"
   end
 
   resource "questionary" do
@@ -57,8 +57,8 @@ class Protostar < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/34/74/c6428f875774288bec1396f5bfcbc2d925700a4dad61727fd5f2b12f249d/wcwidth-0.8.2.tar.gz"
-    sha256 "91fbef97204b96a3d4d421609b80340b760cf33e26da123ff243d76b1fda8dda"
+    url "https://files.pythonhosted.org/packages/36/57/ed58088fafdf4c55a0ad6bde846502567645424d7ebf325230b9237f4085/wcwidth-0.8.3.tar.gz"
+    sha256 "d128512515fbf4612e0ff21fd6380399210318b7b54a9af59dff8454cf9730eb"
   end
   # RESOURCE_BLOCK_END
 
