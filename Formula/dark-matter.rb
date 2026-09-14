@@ -1,7 +1,7 @@
 class DarkMatter < Formula
   include Language::Python::Virtualenv
 
-  desc "A dependency-graph-aware storage profiler for Homebrew."
+  desc "Dependency-graph-aware storage profiler for Homebrew"
   homepage "https://github.com/jacksonfergusondev/dark-matter"
   url "https://files.pythonhosted.org/packages/92/ca/e164c3358b5eedc9739278dfa699e7070a2820fe17234490f2f82447eb67/dark-matter-0.1.0.tar.gz"
   sha256 "26856964cc2628d023f0106a3667f60d6b54178070920661a452b2561dce5a00"
