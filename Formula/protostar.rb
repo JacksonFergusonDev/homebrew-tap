@@ -8,6 +8,7 @@ class Protostar < Formula
   license "MIT"
 
   depends_on "python@3.14"
+  depends_on "git"
   depends_on "uv"
 
   # RESOURCE_BLOCK_START
