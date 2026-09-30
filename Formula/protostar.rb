@@ -1,14 +1,14 @@
 class Protostar < Formula
   include Language::Python::Virtualenv
 
-  desc "Simple Python project scaffolding that understands your tools."
+  desc "Simple Python project scaffolding that understands your tools"
   homepage "https://github.com/jacksonfergusondev/protostar"
   url "https://files.pythonhosted.org/packages/cc/30/ce1bbce4f55db04e2285de81e00768a7cc8cd037da4f86320192e6ed9766/protostar-0.9.0.tar.gz"
   sha256 "f4c5b70147dd7c0f82d486d2667ab8684157d5c0da0f988feb83085a246dbb6c"
   license "MIT"
 
-  depends_on "python@3.14"
   depends_on "git"
+  depends_on "python@3.14"
   depends_on "uv"
 
   # RESOURCE_BLOCK_START

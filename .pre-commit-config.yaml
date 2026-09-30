@@ -25,11 +25,12 @@ repos:
   # Homebrew formula linting
   - repo: local
     hooks:
-      - id: brew-audit
-        name: Homebrew Formula Audit
-        entry: brew audit --strict --tap=jacksonfergusondev/tap
+      - id: brew-style
+        name: Homebrew Formula Style (including strict checks)
+        # Audit rejects file paths; style checks the files in this checkout.
+        # An empty exclusion list enables FormulaAuditStrict too.
+        entry: brew style --except-cops=
         language: system
-        pass_filenames: false
         files: '^Formula/.*\.rb$'
 
   # Markdown linting
