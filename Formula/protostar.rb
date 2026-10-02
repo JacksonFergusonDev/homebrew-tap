@@ -3,8 +3,8 @@ class Protostar < Formula
 
   desc "Simple Python project scaffolding that understands your tools"
   homepage "https://github.com/jacksonfergusondev/protostar"
-  url "https://files.pythonhosted.org/packages/01/43/7c3f8f09c00015f124b7dc69965550b0059a52fb6cb0430be4e960a1dc5a/protostar-0.10.1.tar.gz"
-  sha256 "b5e46779fdaf337329106e168e57bd19a431f341508eeaefc174a5a225954b1d"
+  url "https://files.pythonhosted.org/packages/14/eb/ba89bd736992eb9334b6a6bd501095458247821c3c2bf29048ebdac1e93d/protostar-0.10.2.tar.gz"
+  sha256 "ca004855ee58acc67751c1f2b91ce4d171497c7688f6596ad3823c2e3daaacb5"
   license "MIT"
 
   depends_on "git"
