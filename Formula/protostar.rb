@@ -3,8 +3,8 @@ class Protostar < Formula
 
   desc "Simple Python project scaffolding that understands your tools"
   homepage "https://github.com/jacksonfergusondev/protostar"
-  url "https://files.pythonhosted.org/packages/14/eb/ba89bd736992eb9334b6a6bd501095458247821c3c2bf29048ebdac1e93d/protostar-0.10.2.tar.gz"
-  sha256 "ca004855ee58acc67751c1f2b91ce4d171497c7688f6596ad3823c2e3daaacb5"
+  url "https://files.pythonhosted.org/packages/2b/6e/8d45263a4b9a26fae8b832cfa9ef88fac27d41863ce50341fad693157166/protostar-0.10.3.tar.gz"
+  sha256 "ce9d5d62e2778f01e5b78d091c9f4bd1816dc5717671218113ca3a8c7513eead"
   license "MIT"
 
   depends_on "git"
@@ -23,8 +23,8 @@ class Protostar < Formula
   end
 
   resource "markdown-it-py" do
-    url "https://files.pythonhosted.org/packages/06/ff/7841249c247aa650a76b9ee4bbaeae59370dc8bfd2f6c01f3630c35eb134/markdown_it_py-4.2.0.tar.gz"
-    sha256 "04a21681d6fbb623de53f6f364d352309d4094dd4194040a10fd51833e418d49"
+    url "https://files.pythonhosted.org/packages/38/71/3b932df36c1a044d397a1f92d1cf91ee0a503d91e470cbd670aa66b07ed0/markdown-it-py-3.0.0.tar.gz"
+    sha256 "e3f60a94fa066dc52ec76661e37c851cb232d92f9886b15cb560aaada2df8feb"
   end
 
   resource "mdit-py-plugins" do
@@ -43,8 +43,8 @@ class Protostar < Formula
   end
 
   resource "platformdirs" do
-    url "https://files.pythonhosted.org/packages/17/c8/721b3855fe457da514fe249247d404b9b39c5d16532278f70ebaa6acf18b/platformdirs-4.12.2.tar.gz"
-    sha256 "eab5f70271a490ef74618bb314fbb86e3c7e82fa3b9c922c2ea0e0a1a155d329"
+    url "https://files.pythonhosted.org/packages/80/a8/66d45abadff219e36e2a824181b8f6a67e7ed4572934d6252c71c29d5731/platformdirs-4.13.0.tar.gz"
+    sha256 "1aa0b0d3f224c1f07c295121e312a5a24a180d6ae5a8425ea1784b3e3863e9c0"
   end
 
   resource "pygments" do
