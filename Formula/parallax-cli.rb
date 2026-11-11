@@ -3,6 +3,14 @@
 class ParallaxCli < Formula
   desc "Manage your Parallax library and Kobo from the terminal"
   homepage "https://parallax.jacksonferguson.me"
+  if Hardware::CPU.arm?
+    url "https://github.com/JacksonFergusonDev/parallax/releases/download/v0.1.0/parallax-cli-0.1.0-aarch64-apple-darwin.tar.gz"
+    sha256 "3293930170aae88d82bb92c5f6c8382c915cfe3ce9220f7bc8c689a6fe9ebe9a"
+  else
+    url "https://github.com/JacksonFergusonDev/parallax/releases/download/v0.1.0/parallax-cli-0.1.0-x86_64-apple-darwin.tar.gz"
+    sha256 "e58ee13e492b147cdb36c2fec807b8483441449ad04d54f005c78a1e263148f0"
+  end
+  version "0.1.0"
   license "GPL-3.0-only"
 
   head do
