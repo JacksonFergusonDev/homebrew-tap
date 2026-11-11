@@ -39,8 +39,6 @@ brew install dark-matter
 brew install parallax-cli
 ```
 
-Until Parallax's first release, `parallax-cli` builds from source: install it with `brew install --HEAD parallax-cli`.
-
 ## Maintenance
 
 To update all tools in this tap:
